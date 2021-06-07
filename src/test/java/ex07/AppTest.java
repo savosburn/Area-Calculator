@@ -21,8 +21,7 @@ class AppTest {
 
         String expectedOutput = """
                 You entered dimensions of 15 feet by 20 feet.
-                The area is
-                300 square feet
+                The area is 300 square feet
                 27.871 square meters""";
 
         String actualOutput = myApp.concatStrings(length, width, area, areaConverted);
